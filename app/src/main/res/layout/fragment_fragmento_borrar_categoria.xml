@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FragmentoBorrarCategoria">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Spinner
+                android:layout_width="330dp"
+                android:layout_height="41dp" android:id="@+id/spnBorrarCategoria"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="68dp"/>
+        <Button
+                android:text="@string/btnDelete"
+                android:layout_width="79dp"
+                android:layout_height="37dp" android:id="@+id/btnBorrarCategoria"
+                app:layout_constraintTop_toBottomOf="@+id/spnBorrarCategoria"
+                android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="166dp" android:layout_marginEnd="166dp"
+                app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

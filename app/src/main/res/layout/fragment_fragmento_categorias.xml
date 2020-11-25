@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FragmentoCategorias">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="@string/Salvar"
+                android:layout_width="79dp"
+                android:layout_height="37dp" android:id="@+id/btnSalvarCategoria"
+                app:layout_constraintTop_toBottomOf="@+id/txtNombreCategoria"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="166dp"
+                android:layout_marginEnd="166dp" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="16dp"/>
+        <EditText
+                android:layout_width="330dp"
+                android:layout_height="41dp" android:id="@+id/txtNombreCategoria"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="68dp"
+                android:hint="@string/nombreCategoria" android:inputType="text"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

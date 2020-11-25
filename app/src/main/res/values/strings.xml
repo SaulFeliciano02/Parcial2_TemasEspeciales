@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">productos_y_categorias</string>
+    <string name="tabProductos">Productos</string>
+    <string name="tabCategorias">Categorias</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombreProducto">Nombre del producto</string>
+    <string name="precioProducto">Precio del producto</string>
+    <string name="Salvar">Salvar</string>
+    <string name="nombreCategoria">Nombre de categoria</string>
+    <string name="spnCategoria">Categoria</string>
+    <string name="btnUpdate">Actualizar</string>
+    <string name="btnDelete">Borrar</string>
+</resources>
